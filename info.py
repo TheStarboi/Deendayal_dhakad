@@ -79,7 +79,7 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 VERIFY = bool(environ.get('VERIFY', False))  # Verification On (True) / Off (False)
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 24))  # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002370988072'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Star_Boy_96_vibes')  # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://telegram.me/Star_light_10')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
@@ -87,16 +87,16 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Star_Boy_96_vibes')  
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd73e70a35dc3877fa14afbf51fa8ec312c94780c')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Star_Boy_96_vibes')  # Tutorial video link for opening shortlink website
+TUTORIAL = environ.get('TUTORIAL', 'https://telegram.me/Star_light_10')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Star_Boy_96_vibes')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Star_Boy_96_vibes')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Star_Boy_96_vibes')
-DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/Star_Boy_96_vibes')
+GRP_LNK = environ.get('GRP_LNK', 'https://telegram.me/Star_light_10')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://telegram.me/Star_light_10')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://telegram.me/Star_light_10')
+DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://telegram.me/Star_light_10')
 OWNERID = int(os.environ.get('OWNERID', '1234567890'))  # Replace with the actual admin ID
 
 # ============================
